@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7EAE5BA2428F5A4002B1400 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EAE5B92428F5A4002B1400 /* AppDelegate.swift */; };
+		B7EAE5BC2428F5A4002B1400 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EAE5BB2428F5A4002B1400 /* SceneDelegate.swift */; };
+		B7EAE5BE2428F5A4002B1400 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EAE5BD2428F5A4002B1400 /* ViewController.swift */; };
+		B7EAE5C12428F5A4002B1400 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7EAE5BF2428F5A4002B1400 /* Main.storyboard */; };
+		B7EAE5C32428F5A8002B1400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7EAE5C22428F5A8002B1400 /* Assets.xcassets */; };
+		B7EAE5C62428F5A8002B1400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7EAE5C42428F5A8002B1400 /* LaunchScreen.storyboard */; };
+		B7EAE5D12428F5A8002B1400 /* Messner_In_Class_GPS_02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EAE5D02428F5A8002B1400 /* Messner_In_Class_GPS_02Tests.swift */; };
+		B7EAE5DC2428F5A8002B1400 /* Messner_In_Class_GPS_02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EAE5DB2428F5A8002B1400 /* Messner_In_Class_GPS_02UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7EAE5CD2428F5A8002B1400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7EAE5AE2428F5A4002B1400 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7EAE5B52428F5A4002B1400;
+			remoteInfo = "Messner In Class GPS 02";
+		};
+		B7EAE5D82428F5A8002B1400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7EAE5AE2428F5A4002B1400 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7EAE5B52428F5A4002B1400;
+			remoteInfo = "Messner In Class GPS 02";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7EAE5B62428F5A4002B1400 /* Messner In Class GPS 02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Messner In Class GPS 02.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7EAE5B92428F5A4002B1400 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7EAE5BB2428F5A4002B1400 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B7EAE5BD2428F5A4002B1400 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B7EAE5C02428F5A4002B1400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7EAE5C22428F5A8002B1400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7EAE5C52428F5A8002B1400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7EAE5C72428F5A8002B1400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7EAE5CC2428F5A8002B1400 /* Messner In Class GPS 02Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Messner In Class GPS 02Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7EAE5D02428F5A8002B1400 /* Messner_In_Class_GPS_02Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messner_In_Class_GPS_02Tests.swift; sourceTree = "<group>"; };
+		B7EAE5D22428F5A8002B1400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7EAE5D72428F5A8002B1400 /* Messner In Class GPS 02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Messner In Class GPS 02UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7EAE5DB2428F5A8002B1400 /* Messner_In_Class_GPS_02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messner_In_Class_GPS_02UITests.swift; sourceTree = "<group>"; };
+		B7EAE5DD2428F5A8002B1400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7EAE5B32428F5A4002B1400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7EAE5C92428F5A8002B1400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7EAE5D42428F5A8002B1400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7EAE5AD2428F5A4002B1400 = {
+			isa = PBXGroup;
+			children = (
+				B7EAE5B82428F5A4002B1400 /* Messner In Class GPS 02 */,
+				B7EAE5CF2428F5A8002B1400 /* Messner In Class GPS 02Tests */,
+				B7EAE5DA2428F5A8002B1400 /* Messner In Class GPS 02UITests */,
+				B7EAE5B72428F5A4002B1400 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7EAE5B72428F5A4002B1400 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7EAE5B62428F5A4002B1400 /* Messner In Class GPS 02.app */,
+				B7EAE5CC2428F5A8002B1400 /* Messner In Class GPS 02Tests.xctest */,
+				B7EAE5D72428F5A8002B1400 /* Messner In Class GPS 02UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7EAE5B82428F5A4002B1400 /* Messner In Class GPS 02 */ = {
+			isa = PBXGroup;
+			children = (
+				B7EAE5B92428F5A4002B1400 /* AppDelegate.swift */,
+				B7EAE5BB2428F5A4002B1400 /* SceneDelegate.swift */,
+				B7EAE5BD2428F5A4002B1400 /* ViewController.swift */,
+				B7EAE5BF2428F5A4002B1400 /* Main.storyboard */,
+				B7EAE5C22428F5A8002B1400 /* Assets.xcassets */,
+				B7EAE5C42428F5A8002B1400 /* LaunchScreen.storyboard */,
+				B7EAE5C72428F5A8002B1400 /* Info.plist */,
+			);
+			path = "Messner In Class GPS 02";
+			sourceTree = "<group>";
+		};
+		B7EAE5CF2428F5A8002B1400 /* Messner In Class GPS 02Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B7EAE5D02428F5A8002B1400 /* Messner_In_Class_GPS_02Tests.swift */,
+				B7EAE5D22428F5A8002B1400 /* Info.plist */,
+			);
+			path = "Messner In Class GPS 02Tests";
+			sourceTree = "<group>";
+		};
+		B7EAE5DA2428F5A8002B1400 /* Messner In Class GPS 02UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7EAE5DB2428F5A8002B1400 /* Messner_In_Class_GPS_02UITests.swift */,
+				B7EAE5DD2428F5A8002B1400 /* Info.plist */,
+			);
+			path = "Messner In Class GPS 02UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7EAE5B52428F5A4002B1400 /* Messner In Class GPS 02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7EAE5E02428F5A8002B1400 /* Build configuration list for PBXNativeTarget "Messner In Class GPS 02" */;
+			buildPhases = (
+				B7EAE5B22428F5A4002B1400 /* Sources */,
+				B7EAE5B32428F5A4002B1400 /* Frameworks */,
+				B7EAE5B42428F5A4002B1400 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Messner In Class GPS 02";
+			productName = "Messner In Class GPS 02";
+			productReference = B7EAE5B62428F5A4002B1400 /* Messner In Class GPS 02.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7EAE5CB2428F5A8002B1400 /* Messner In Class GPS 02Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7EAE5E32428F5A8002B1400 /* Build configuration list for PBXNativeTarget "Messner In Class GPS 02Tests" */;
+			buildPhases = (
+				B7EAE5C82428F5A8002B1400 /* Sources */,
+				B7EAE5C92428F5A8002B1400 /* Frameworks */,
+				B7EAE5CA2428F5A8002B1400 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7EAE5CE2428F5A8002B1400 /* PBXTargetDependency */,
+			);
+			name = "Messner In Class GPS 02Tests";
+			productName = "Messner In Class GPS 02Tests";
+			productReference = B7EAE5CC2428F5A8002B1400 /* Messner In Class GPS 02Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7EAE5D62428F5A8002B1400 /* Messner In Class GPS 02UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7EAE5E62428F5A8002B1400 /* Build configuration list for PBXNativeTarget "Messner In Class GPS 02UITests" */;
+			buildPhases = (
+				B7EAE5D32428F5A8002B1400 /* Sources */,
+				B7EAE5D42428F5A8002B1400 /* Frameworks */,
+				B7EAE5D52428F5A8002B1400 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7EAE5D92428F5A8002B1400 /* PBXTargetDependency */,
+			);
+			name = "Messner In Class GPS 02UITests";
+			productName = "Messner In Class GPS 02UITests";
+			productReference = B7EAE5D72428F5A8002B1400 /* Messner In Class GPS 02UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7EAE5AE2428F5A4002B1400 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Brad D. Messner";
+				TargetAttributes = {
+					B7EAE5B52428F5A4002B1400 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					B7EAE5CB2428F5A8002B1400 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B7EAE5B52428F5A4002B1400;
+					};
+					B7EAE5D62428F5A8002B1400 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B7EAE5B52428F5A4002B1400;
+					};
+				};
+			};
+			buildConfigurationList = B7EAE5B12428F5A4002B1400 /* Build configuration list for PBXProject "Messner In Class GPS 02" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7EAE5AD2428F5A4002B1400;
+			productRefGroup = B7EAE5B72428F5A4002B1400 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7EAE5B52428F5A4002B1400 /* Messner In Class GPS 02 */,
+				B7EAE5CB2428F5A8002B1400 /* Messner In Class GPS 02Tests */,
+				B7EAE5D62428F5A8002B1400 /* Messner In Class GPS 02UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7EAE5B42428F5A4002B1400 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7EAE5C62428F5A8002B1400 /* LaunchScreen.storyboard in Resources */,
+				B7EAE5C32428F5A8002B1400 /* Assets.xcassets in Resources */,
+				B7EAE5C12428F5A4002B1400 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7EAE5CA2428F5A8002B1400 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7EAE5D52428F5A8002B1400 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7EAE5B22428F5A4002B1400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7EAE5BE2428F5A4002B1400 /* ViewController.swift in Sources */,
+				B7EAE5BA2428F5A4002B1400 /* AppDelegate.swift in Sources */,
+				B7EAE5BC2428F5A4002B1400 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7EAE5C82428F5A8002B1400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7EAE5D12428F5A8002B1400 /* Messner_In_Class_GPS_02Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7EAE5D32428F5A8002B1400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7EAE5DC2428F5A8002B1400 /* Messner_In_Class_GPS_02UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7EAE5CE2428F5A8002B1400 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7EAE5B52428F5A4002B1400 /* Messner In Class GPS 02 */;
+			targetProxy = B7EAE5CD2428F5A8002B1400 /* PBXContainerItemProxy */;
+		};
+		B7EAE5D92428F5A8002B1400 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7EAE5B52428F5A4002B1400 /* Messner In Class GPS 02 */;
+			targetProxy = B7EAE5D82428F5A8002B1400 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7EAE5BF2428F5A4002B1400 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7EAE5C02428F5A4002B1400 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7EAE5C42428F5A8002B1400 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7EAE5C52428F5A8002B1400 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7EAE5DE2428F5A8002B1400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7EAE5DF2428F5A8002B1400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7EAE5E12428F5A8002B1400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDN3D9643Z;
+				INFOPLIST_FILE = "Messner In Class GPS 02/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Messner-In-Class-GPS-02";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7EAE5E22428F5A8002B1400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDN3D9643Z;
+				INFOPLIST_FILE = "Messner In Class GPS 02/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Messner-In-Class-GPS-02";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7EAE5E42428F5A8002B1400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDN3D9643Z;
+				INFOPLIST_FILE = "Messner In Class GPS 02Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Messner-In-Class-GPS-02Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Messner In Class GPS 02.app/Messner In Class GPS 02";
+			};
+			name = Debug;
+		};
+		B7EAE5E52428F5A8002B1400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDN3D9643Z;
+				INFOPLIST_FILE = "Messner In Class GPS 02Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Messner-In-Class-GPS-02Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Messner In Class GPS 02.app/Messner In Class GPS 02";
+			};
+			name = Release;
+		};
+		B7EAE5E72428F5A8002B1400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDN3D9643Z;
+				INFOPLIST_FILE = "Messner In Class GPS 02UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Messner-In-Class-GPS-02UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Messner In Class GPS 02";
+			};
+			name = Debug;
+		};
+		B7EAE5E82428F5A8002B1400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDN3D9643Z;
+				INFOPLIST_FILE = "Messner In Class GPS 02UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Messner-In-Class-GPS-02UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Messner In Class GPS 02";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7EAE5B12428F5A4002B1400 /* Build configuration list for PBXProject "Messner In Class GPS 02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7EAE5DE2428F5A8002B1400 /* Debug */,
+				B7EAE5DF2428F5A8002B1400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7EAE5E02428F5A8002B1400 /* Build configuration list for PBXNativeTarget "Messner In Class GPS 02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7EAE5E12428F5A8002B1400 /* Debug */,
+				B7EAE5E22428F5A8002B1400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7EAE5E32428F5A8002B1400 /* Build configuration list for PBXNativeTarget "Messner In Class GPS 02Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7EAE5E42428F5A8002B1400 /* Debug */,
+				B7EAE5E52428F5A8002B1400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7EAE5E62428F5A8002B1400 /* Build configuration list for PBXNativeTarget "Messner In Class GPS 02UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7EAE5E72428F5A8002B1400 /* Debug */,
+				B7EAE5E82428F5A8002B1400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7EAE5AE2428F5A4002B1400 /* Project object */;
+}
