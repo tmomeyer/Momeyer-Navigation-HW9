@@ -15,6 +15,8 @@
 		B7EAE5C62428F5A8002B1400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7EAE5C42428F5A8002B1400 /* LaunchScreen.storyboard */; };
 		B7EAE5D12428F5A8002B1400 /* Messner_In_Class_GPS_02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EAE5D02428F5A8002B1400 /* Messner_In_Class_GPS_02Tests.swift */; };
 		B7EAE5DC2428F5A8002B1400 /* Messner_In_Class_GPS_02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EAE5DB2428F5A8002B1400 /* Messner_In_Class_GPS_02UITests.swift */; };
+		E50E7B05244F49FB00D2E357 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E50E7B04244F49FB00D2E357 /* WebKit.framework */; };
+		E50E7B07244F4EA600D2E357 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50E7B06244F4EA600D2E357 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B7EAE5D72428F5A8002B1400 /* Messner In Class GPS 02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Messner In Class GPS 02UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7EAE5DB2428F5A8002B1400 /* Messner_In_Class_GPS_02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messner_In_Class_GPS_02UITests.swift; sourceTree = "<group>"; };
 		B7EAE5DD2428F5A8002B1400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E50E7B04244F49FB00D2E357 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		E50E7B06244F4EA600D2E357 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E50E7B05244F49FB00D2E357 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +88,7 @@
 				B7EAE5CF2428F5A8002B1400 /* Messner In Class GPS 02Tests */,
 				B7EAE5DA2428F5A8002B1400 /* Messner In Class GPS 02UITests */,
 				B7EAE5B72428F5A4002B1400 /* Products */,
+				E50E7B03244F49FB00D2E357 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +108,7 @@
 				B7EAE5B92428F5A4002B1400 /* AppDelegate.swift */,
 				B7EAE5BB2428F5A4002B1400 /* SceneDelegate.swift */,
 				B7EAE5BD2428F5A4002B1400 /* ViewController.swift */,
+				E50E7B06244F4EA600D2E357 /* WebViewController.swift */,
 				B7EAE5BF2428F5A4002B1400 /* Main.storyboard */,
 				B7EAE5C22428F5A8002B1400 /* Assets.xcassets */,
 				B7EAE5C42428F5A8002B1400 /* LaunchScreen.storyboard */,
@@ -126,6 +133,14 @@
 				B7EAE5DD2428F5A8002B1400 /* Info.plist */,
 			);
 			path = "Messner In Class GPS 02UITests";
+			sourceTree = "<group>";
+		};
+		E50E7B03244F49FB00D2E357 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E50E7B04244F49FB00D2E357 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +277,7 @@
 				B7EAE5BE2428F5A4002B1400 /* ViewController.swift in Sources */,
 				B7EAE5BA2428F5A4002B1400 /* AppDelegate.swift in Sources */,
 				B7EAE5BC2428F5A4002B1400 /* SceneDelegate.swift in Sources */,
+				E50E7B07244F4EA600D2E357 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
